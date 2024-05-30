@@ -1,14 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import AddStock from './pages/AddStock'
+import ViewStock from './pages/ViewStock'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <h1>inventory management</h1>
+     <ViewStock/>
+     {/* <AddStock/> */}
     </>
   )
 }
